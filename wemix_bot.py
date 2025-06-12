@@ -5,7 +5,7 @@ import os
 from keep_alive import keep_alive  # Keeps the bot running on Render
 
 # Load bot token from environment variable
-TOKEN = os.getenv("MTM4Mjc5MjIyNDc2NDU5NjMzNA.GVyyT3.qEv1VBx54CTLsmCmVH2rHpcihP4XynaYWzpjDk")
+TOKEN = os.getenv("DISCORD_TOKEN")
 
 intents = discord.Intents.default()
 client = discord.Client(intents=intents)
